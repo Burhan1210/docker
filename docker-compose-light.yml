@@ -24,7 +24,7 @@ services:
     volumes:
       - hadoop_namenode:/hadoop/dfs/name
       # TODO: Voeg hier extra folders toe om ze zichtbaar te maken in je containers, deze hebben de volgende structuur:
-      C:\Users\Burha\OneDrive\Documents\Big data\Leerstof
+      - C:\Users\Burha\OneDrive\Documents\Big data\Leerstof
     environment:
       - CLUSTER_NAME=test
     env_file:
